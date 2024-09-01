@@ -31,10 +31,15 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_svg: ^2.0.10+1
+  flutter_launcher_icons: ^0.13.0  
+  video_player: ^2.5.0
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+
 
 dev_dependencies:
   flutter_test:
@@ -46,6 +51,11 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: 'launcher_icons'
+  ios: true
+  image_path: "assets/icon/lorysappicon.png"
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -59,8 +69,25 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/svg/heart-pulse-svgrepo-com.svg
+    - assets/svg/eye-closed-svgrepo-com.svg
+    - assets/svg/eye-slash-svgrepo-com.svg
+    - assets/svg/lock-alt-svgrepo-com.svg
+    - assets/svg/user-alt-1-svgrepo-com.svg
+    - assets/svg/eye-svgrepo-com.svg
+    - assets/svg/arrow-left-5-svgrepo-com.svg
+    - assets/svg/arrow-left-alt-01-svgrepo-com.svg
+    - assets/svg/arrow-left-alt-02-svgrepo-com.svg
+    - assets/svg/arrow-left-alt-03-svgrepo-com.svg
+    - assets/svg/arrow-left-square-svgrepo-com.svg
+    - assets/svg/arrow-left-svgrepo-com.svg
+    - assets/svg/arrow-right-alt-01-svgrepo-com.svg
+    - assets/svg/arrow-right-alt-02-svgrepo-com.svg
+    - assets/svg/arrow-right-alt-03-svgrepo-com.svg
+    - assets/svg/arrow-right-circle-svgrepo-com.svg
+    - assets/svg/arrow-right-in-388-svgrepo-com.svg
+    - assets/icon/lorysappicon.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
